@@ -1,0 +1,7 @@
+UserId-E0000000007
+UserName-manuelnongba
+DateOfBirth-1900-10-03
+Email-okayiguess@gmail.com
+Country-
+MobileNo-+233201270164
+ResidentialAddress-123 somewhere safe avenue
