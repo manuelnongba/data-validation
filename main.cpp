@@ -66,37 +66,37 @@ unordered_map <string, bool> is_complete_data(string field, string value){
 
   if (field == "UserId"){
     bool is_complete_userid = value != "";
-    data_map.insert(pair<string, bool>("Test for valid user id.", is_complete_userid));
+    data_map.insert(pair<string, bool>("Test for null user id.", is_complete_userid));
   }
 
   if (field == "UserName"){
     bool is_complete_username = value != "";
-    data_map.insert(pair<string, bool>("Test for complete user name.", is_complete_username));
+    data_map.insert(pair<string, bool>("Test for null username.", is_complete_username));
   }
 
   if(field == "DateOfBirth"){
     bool is_complete_date = value != "";
-    data_map.insert(pair<string, bool>("Test for complete date.", is_complete_date));
+    data_map.insert(pair<string, bool>("Test for null date.", is_complete_date));
   }
 
   if(field == "Email"){
     bool is_complete_email = value != "";
-    data_map.insert(pair<string, bool>("Test for complete email.", is_complete_email));
+    data_map.insert(pair<string, bool>("Test for null email.", is_complete_email));
   }
 
   if(field == "Country"){
     bool is_complete_country = value != "";
-    data_map.insert(pair<string, bool>("Test for complete country", is_complete_country));
+    data_map.insert(pair<string, bool>("Test for null country", is_complete_country));
   }
 
   if(field == "MobileNo"){
     bool is_complete_mobile_no = value != "";
-    data_map.insert(pair<string, bool>("Test for complete mobile number.", is_complete_mobile_no));
+    data_map.insert(pair<string, bool>("Test for null mobile number.", is_complete_mobile_no));
   }
 
   if(field == "ResidentialAddress"){
     bool is_complete_mobile_no = value != "";
-    data_map.insert(pair<string, bool>("Test for complete address.", is_complete_mobile_no));
+    data_map.insert(pair<string, bool>("Test for null address.", is_complete_mobile_no));
   }
 
   return data_map;
